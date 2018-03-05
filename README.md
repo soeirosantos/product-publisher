@@ -1,6 +1,6 @@
 # product-publisher
 
-A log-based architecture powered by Apache Kafka for publishing Product Data. This PoC was inspired by the article Publishing with [Apache Kafka at The New York Times](https://www.confluent.io/blog/publishing-apache-kafka-new-york-times/). To properly understand the benefits and concept of this architecture is recommended to read the article.
+A log-based architecture powered by Apache Kafka for publishing Product Data. This PoC was inspired by the article [Publishing with Apache Kafka at The New York Times](https://www.confluent.io/blog/publishing-apache-kafka-new-york-times/). To properly understand the benefits and concept of this architecture is recommended to read the article.
 
 The stack used is:
 
