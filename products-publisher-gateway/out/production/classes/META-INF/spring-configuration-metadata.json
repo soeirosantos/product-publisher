@@ -1,0 +1,17 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "br.com.soeirosantos.products.config.AppProperties",
+      "name": "application",
+      "type": "br.com.soeirosantos.products.config.AppProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "br.com.soeirosantos.products.config.AppProperties",
+      "name": "application.products-topic",
+      "type": "java.lang.String"
+    }
+  ]
+}
