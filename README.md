@@ -24,6 +24,11 @@ Start a Kafka instance (https://gist.github.com/abacaphiliac/f0553548f9c577214d1
 docker run -d -p 2181:2181 -p 9092:9092 --env ADVERTISED_HOST=kafka --env ADVERTISED_PORT=9092 --name kafka -h kafka spotify/kafka
 ```
 
+Create the `products` Topic
+```shell
+docker exec kafka /opt/kafka_2.11-0.10.1.0/bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic products
+```
+
 Start an ElasticSearch instance (https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html)
 ```shell
 docker run -d -p 9200:9200 -p 9300:9300 --name elasticsearch -h elasticsearch --env "discovery.type=single-node" docker.elastic.co/elasticsearch/elasticsearch:6.2.2
