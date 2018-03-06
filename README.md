@@ -13,8 +13,8 @@ The stack used is:
 
 This Proof of Concept tests a simple data publishing workflow.
 
-* products - As an example of producer, the Simple Product Data Service, for each change in a product, publishes the change to the Publishing Gateway
-* products-publisher-gateway - Receives data for Products from different sources and sends it the Kafka log
+* products - As an example of producer, the Simple Product Data Service for each change in a product publishes the change to the Publishing Gateway
+* products-publisher-gateway - Receives data for Products from different sources and sends it to the Kafka log
 * products-indexer - As an example of consumer, the Products Indexer reads the Kafka log and index the Product data to the ElasticSearch (this ElasticSearch is supposed to be used by the search feature on the websites and native apps)
 
 ## Setup the environment to test the PoC
